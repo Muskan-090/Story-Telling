@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 
 import openai as ai
-ai.api_key = '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' 
+ai.api_key = '#############' 
 def generate_gpt3_response(user_text, print_output=False):
     """
     Query OpenAI GPT-3 for the specific key and get back a response
